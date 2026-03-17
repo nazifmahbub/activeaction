@@ -1415,7 +1415,7 @@ img {
 /* =============================================
    PACKAGES SECTION
    ============================================= */
-/* /* =============================================
+/* =============================================
    PACKAGES SECTION
    ============================================= */
 .packages-grid {
@@ -2011,4 +2011,60 @@ img {
   padding-top: 0.25rem;
   border-top: 1px solid var(--border);
   padding-top: 1rem;
+}
+
+/* =============================================
+   MOBILE TEXT OVERFLOW FIX
+   ============================================= */
+@media (max-width: 768px) {
+  .hero-content {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: clamp(1.8rem, 8vw, 3rem);
+    word-break: break-word;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+    padding: 0 0.5rem;
+  }
+
+  .hero-badge {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-waveform {
+    width: 100%;
+    overflow: hidden;
+    margin: 1.5rem 0;
+  }
+
+  .waveform-bars {
+    gap: 2px;
+  }
+
+  .waveform-bars span {
+    width: 3.5px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
 }
