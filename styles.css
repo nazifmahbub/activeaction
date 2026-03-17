@@ -1415,7 +1415,7 @@ img {
 /* =============================================
    PACKAGES SECTION
    ============================================= */
-/* =============================================
+/* /* =============================================
    PACKAGES SECTION
    ============================================= */
 .packages-grid {
@@ -1887,6 +1887,21 @@ img {
 
 .footer-brand .logo-img {
   height: 52px;
+}
+
+.nav-logo--withtext {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+}
+
+.nav-logo-text {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary, #fff);
+  letter-spacing: -0.01em;
+  white-space: nowrap;
 }
 
 /* =============================================
