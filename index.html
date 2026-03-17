@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pod Mechanic | Done-For-You Podcast Production Studio</title>
+  <meta name="description" content="Pod Mechanic is a done-for-you podcast production studio. We launch, edit, mix, and distribute your podcast so every episode sounds clean, consistent, and ready to stream.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo">
+        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+          <circle cx="20" cy="20" r="8" fill="currentColor"/>
+          <path d="M20 2V8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M20 32V38" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M2 20H8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M32 20H38" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span>Pod Mechanic</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn-nav">Get Started</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-gradient"></div>
+      <div class="sound-waves">
+        <div class="wave wave-1"></div>
+        <div class="wave wave-2"></div>
+        <div class="wave wave-3"></div>
+        <div class="wave wave-4"></div>
+        <div class="wave wave-5"></div>
+      </div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Done-For-You Podcast Production
+      </div>
+      <h1 class="hero-title">
+        You Hit Record.<br>
+        <span class="gradient-text">We Handle the Rest.</span>
+      </h1>
+      <p class="hero-subtitle">
+        Pod Mechanic is a full-service podcast production studio. From editing and mixing to distribution and social clips &mdash; we make sure every episode sounds clean, consistent, and ready to stream.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary btn-lg">
+          Start Your Podcast
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#services" class="btn btn-ghost btn-lg">
+          See Our Services
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" data-count="500">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Episodes Produced</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-count="48">0</span><span class="stat-suffix">hr</span>
+          <span class="stat-label">Turnaround Time</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-count="100">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Satisfaction Rate</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trusted By / Social Proof Bar -->
+  <section class="social-proof">
+    <div class="container">
+      <p class="social-proof-text">Available on all major platforms</p>
+      <div class="platform-logos">
+        <div class="platform-logo">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm3.535 14.243l-4.243-2.449V8h1.5v5.137l3.536 2.036-.793 1.07z"/></svg>
+          <span>Apple Podcasts</span>
+        </div>
+        <div class="platform-logo">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><circle cx="12" cy="12" r="10"/></svg>
+          <span>Spotify</span>
+        </div>
+        <div class="platform-logo">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4 11h-3v3h-2v-3H8v-2h3V8h2v3h3v2z"/></svg>
+          <span>YouTube</span>
+        </div>
+        <div class="platform-logo">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 3a4 4 0 110 8 4 4 0 010-8zm0 13c-2.67 0-5.02-1.34-6.42-3.38.03-2.13 4.28-3.3 6.42-3.3 2.13 0 6.39 1.17 6.42 3.3C17.02 16.66 14.67 18 12 18z"/></svg>
+          <span>Amazon Music</span>
+        </div>
+        <div class="platform-logo">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1 14.5v-9l7 4.5-7 4.5z"/></svg>
+          <span>Google Podcasts</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Services</span>
+        <h2 class="section-title">Everything Your Podcast Needs,<br><span class="gradient-text">Under One Roof</span></h2>
+        <p class="section-subtitle">Whether you're launching your first show or levelling up an existing one, we've got every aspect of production covered.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" data-aos="fade-up">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="4" y="8" width="40" height="32" rx="4" stroke="currentColor" stroke-width="2"/><path d="M18 20l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Podcast Launch</h3>
+          <p>From concept to first episode, we handle the complete setup &mdash; artwork, intros, hosting configuration, and submission to all major platforms.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M8 24h4l4-8 4 16 4-12 4 8 4-4 4 6h4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Audio Editing &amp; Cleanup</h3>
+          <p>We remove filler words, awkward pauses, background noise, and mouth clicks to deliver polished, broadcast-quality audio every time.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2"/><path d="M24 16v8l6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Mixing &amp; Mastering</h3>
+          <p>Professional mixing to balance levels, EQ, compression, and loudness standards so your podcast sounds great on any device or platform.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="6" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2"/><path d="M20 18l8 6-8 6V18z" fill="currentColor"/><path d="M16 34h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M24 30v4" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>Video Production</h3>
+          <p>Full video editing for your podcast episodes &mdash; multi-cam sync, captions, branded overlays, and export optimized for YouTube and social.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M12 8h24a4 4 0 014 4v24a4 4 0 01-4 4H12a4 4 0 01-4-4V12a4 4 0 014-4z" stroke="currentColor" stroke-width="2"/><path d="M16 20h16M16 28h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Show Notes &amp; Transcripts</h3>
+          <p>Detailed, SEO-friendly show notes, timestamps, and full transcripts to boost discoverability and make your content accessible to everyone.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="10" y="6" width="20" height="36" rx="3" stroke="currentColor" stroke-width="2"/><path d="M16 34h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="36" cy="16" r="6" stroke="currentColor" stroke-width="2"/><path d="M36 22v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Social Clips &amp; Distribution</h3>
+          <p>Engaging audiograms, video clips, and quote cards optimized for Instagram, TikTok, X, and LinkedIn to grow your audience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">How It Works</span>
+        <h2 class="section-title">Simple Process,<br><span class="gradient-text">Professional Results</span></h2>
+        <p class="section-subtitle">We've streamlined our workflow so you can focus on what matters most &mdash; creating great content.</p>
+      </div>
+      <div class="steps">
+        <div class="step" data-aos="fade-right">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3>Record Your Episode</h3>
+            <p>Hit record and have your conversation. We'll guide you on the best setup and recording practices to capture the best audio possible.</p>
+          </div>
+          <div class="step-visual">
+            <div class="waveform-mini">
+              <span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+        <div class="step" data-aos="fade-left">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3>Upload Your Files</h3>
+            <p>Drop your raw audio (and video) files into your dedicated shared folder. That's it &mdash; we take it from here.</p>
+          </div>
+          <div class="step-visual">
+            <div class="upload-icon-anim">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M8 32l8-8 6 6 8-10 10 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 4v20m0-20l-6 6m6-6l6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="step" data-aos="fade-right">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3>We Produce &amp; Polish</h3>
+            <p>Our team edits, mixes, masters, writes show notes, creates social clips, and prepares everything for publishing.</p>
+          </div>
+          <div class="step-visual">
+            <div class="gear-anim">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M24 30a6 6 0 100-12 6 6 0 000 12z" stroke="currentColor" stroke-width="2"/><path d="M26 6h-4l-1 4-3-1-3-3-3 3 3 3-1 3H10v4h4l1 3-3 3 3 3 3-3 3 1v4h4v-4l3 1 3 3 3-3-3-3 1-3h4v-4h-4l-1-3 3-3-3-3-3 3-3-1V6z" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="step" data-aos="fade-left">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <h3>Review &amp; Go Live</h3>
+            <p>Review the final product, request any tweaks, and we publish to all platforms within 48 hours. Your audience never waits.</p>
+          </div>
+          <div class="step-visual">
+            <div class="check-anim">
+              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2"/><path d="M15 24l6 6 12-12" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Pricing</span>
+        <h2 class="section-title">Plans That Scale<br><span class="gradient-text">With Your Podcast</span></h2>
+        <p class="section-subtitle">No hidden fees. No long-term contracts. Just professional podcast production at a price that makes sense.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card" data-aos="fade-up">
+          <div class="pricing-header">
+            <h3>Starter</h3>
+            <p class="pricing-desc">Perfect for new podcasters getting started</p>
+            <div class="pricing-amount">
+              <span class="currency">$</span>
+              <span class="price">299</span>
+              <span class="period">/month</span>
+            </div>
+            <p class="pricing-episodes">Up to 4 episodes</p>
+          </div>
+          <ul class="pricing-features">
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              Audio editing &amp; cleanup
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              Mixing &amp; mastering
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              Intro/outro stitching
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              Show notes
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              Publishing to all platforms
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              48-hour turnaround
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-block">Get Started</a>
+        </div>
+        <div class="pricing-card pricing-featured" data-aos="fade-up" data-aos-delay="100">
+          <div class="pricing-badge">Most Popular</div>
+          <div class="pricing-header">
+            <h3>Professional</h3>
+            <p class="pricing-desc">For podcasters ready to level up</p>
+            <div class="pricing-amount">
+              <span class="currency">$</span>
+              <span class="price">599</span>
+              <span class="period">/month</span>
+            </div>
+            <p class="pricing-episodes">Up to 8 episodes</p>
+          </div>
+          <ul class="pricing-features">
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              Everything in Starter
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              Video editing (1 angle)
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              3 social media clips per episode
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              Full transcripts
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              SEO-optimized show notes
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              Dedicated producer
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              24-hour turnaround
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
+        </div>
+        <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="pricing-header">
+            <h3>Studio</h3>
+            <p class="pricing-desc">Full-service production for serious creators</p>
+            <div class="pricing-amount">
+              <span class="currency">$</span>
+              <span class="price">999</span>
+              <span class="period">/month</span>
+            </div>
+            <p class="pricing-episodes">Up to 12 episodes</p>
+          </div>
+          <ul class="pricing-features">
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              Everything in Professional
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              Multi-cam video editing
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              5 social clips per episode
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              YouTube optimization
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              Custom branded templates
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              Growth strategy consultation
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>
+              Priority support
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-block">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual" data-aos="fade-right">
+          <div class="about-image-wrapper">
+            <div class="equalizer">
+              <span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content" data-aos="fade-left">
+          <span class="section-tag">About Us</span>
+          <h2 class="section-title">Built by Podcasters,<br><span class="gradient-text">For Podcasters</span></h2>
+          <p>Pod Mechanic was born from the Active Action Lab &mdash; a platform dedicated to personal development and professional growth founded by <strong>Dr. Nazif</strong>, a policy analyst, personal development coach, and former physician.</p>
+          <p>After producing the <strong>Active Action Podcast</strong> (with 46+ episodes and growing), we realized how time-consuming and technically demanding podcast production can be. So we built the production studio we wished existed &mdash; one that handles every detail so creators can focus on what they do best: creating meaningful conversations.</p>
+          <p>Whether you're a solo host, a brand launching a show, or an established podcaster ready to scale, Pod Mechanic is your behind-the-scenes team that makes every episode shine.</p>
+          <div class="about-highlights">
+            <div class="highlight">
+              <div class="highlight-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              </div>
+              <div>
+                <strong>Full-Service Studio</strong>
+                <span>End-to-end production</span>
+              </div>
+            </div>
+            <div class="highlight">
+              <div class="highlight-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              </div>
+              <div>
+                <strong>Fast Turnaround</strong>
+                <span>48-hour delivery or less</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Testimonials</span>
+        <h2 class="section-title">What Our<br><span class="gradient-text">Clients Say</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card" data-aos="fade-up">
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+          </div>
+          <blockquote>"Pod Mechanic took my podcast from a hobby to a professional show. The audio quality difference was night and day, and I love that I just hit record and they handle everything else."</blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">JM</div>
+            <div>
+              <strong>Joe M.</strong>
+              <span>Host, Measuring Post Podcast</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+          </div>
+          <blockquote>"As a busy professional, I didn't have time to learn audio editing. Pod Mechanic gave me back hours every week and my listeners constantly compliment the production quality."</blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">AL</div>
+            <div>
+              <strong>Alan L.</strong>
+              <span>CEO, Next Level University</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+          </div>
+          <blockquote>"The social clips alone have been a game-changer for growing my audience. Pod Mechanic doesn't just produce episodes &mdash; they help you build a brand around your podcast."</blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">MK</div>
+            <div>
+              <strong>Molly K.</strong>
+              <span>Founder, MK Consulting</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">FAQ</span>
+        <h2 class="section-title">Frequently Asked<br><span class="gradient-text">Questions</span></h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item" data-aos="fade-up">
+          <button class="faq-question">
+            What formats do you accept for raw recordings?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>We accept all major audio formats (WAV, MP3, FLAC, M4A, AIFF) and video formats (MP4, MOV, MKV). We recommend recording in WAV or lossless format for the best audio quality, but we can work with whatever you have.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos="fade-up">
+          <button class="faq-question">
+            How fast is the turnaround?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Our standard turnaround is 48 hours from the time you upload your raw files. Professional plan clients get a 24-hour turnaround. Rush delivery is available on request for an additional fee.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos="fade-up">
+          <button class="faq-question">
+            Can I request revisions?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. All plans include unlimited revisions. We want you to be 100% happy with the final product. Most clients love the first cut, but we're always happy to fine-tune until it's perfect.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos="fade-up">
+          <button class="faq-question">
+            Do I need professional recording equipment?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>While professional equipment helps, it's not required. We can significantly improve audio from USB mics and even phone recordings. That said, we're happy to recommend affordable gear that will take your audio to the next level.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos="fade-up">
+          <button class="faq-question">
+            What if I want to cancel or change plans?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>No long-term contracts here. You can upgrade, downgrade, or cancel at any time. We believe in earning your business every month with the quality of our work.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos="fade-up">
+          <button class="faq-question">
+            Can you help launch a brand-new podcast from scratch?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! We offer a complete podcast launch service. We'll help with concept development, naming, artwork, intro/outro production, hosting setup, and distribution to all major platforms. Contact us for a custom launch package.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta" id="contact">
+    <div class="container">
+      <div class="cta-content" data-aos="zoom-in">
+        <h2 class="cta-title">Ready to Sound<br><span class="gradient-text">Like a Pro?</span></h2>
+        <p class="cta-subtitle">Stop worrying about editing, mixing, and distribution. Let Pod Mechanic handle the production while you focus on creating great content.</p>
+        <div class="cta-actions">
+          <a href="mailto:hello@podmechanic.com" class="btn btn-primary btn-lg">
+            Get In Touch
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#pricing" class="btn btn-ghost btn-lg">View Pricing</a>
+        </div>
+        <p class="cta-note">No commitment required. Let's chat about your podcast.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+              <circle cx="20" cy="20" r="8" fill="currentColor"/>
+              <path d="M20 2V8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M20 32V38" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M2 20H8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M32 20H38" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <span>Pod Mechanic</span>
+          </a>
+          <p>A done-for-you podcast production studio by Active Action Lab. We make your podcast sound clean, consistent, and ready to stream.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#services">Services</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#about">About</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <a href="#services">Podcast Launch</a>
+          <a href="#services">Audio Editing</a>
+          <a href="#services">Mixing &amp; Mastering</a>
+          <a href="#services">Video Production</a>
+          <a href="#services">Social Clips</a>
+        </div>
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <a href="mailto:hello@podmechanic.com">hello@podmechanic.com</a>
+          <a href="https://activeactionlab.com" target="_blank" rel="noopener">Active Action Lab</a>
+          <a href="https://activeaction.fm" target="_blank" rel="noopener">Active Action Podcast</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Pod Mechanic. A production studio by <a href="https://activeactionlab.com" target="_blank" rel="noopener">Active Action Lab</a>. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
