@@ -163,7 +163,7 @@ img {
   gap: 10px;
   font-family: var(--font-display);
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--text-primary);
 }
 
